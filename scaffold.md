@@ -1,7 +1,9 @@
 Paciente:
-rails generate modal Paciente nombre:string email:string telefono:string doctor_id:integer obrasocial:string //
+rails generate model Paciente nombre:string email:string telefono:string doctor_id:integer obrasocial:string //
 rails generate controller Paciente //
-usuario:
-columnas:id integer, areaDelDoctor: varchar,nombre:varchar, email: varchar, doctoresid varchar array,telefono:string, obrasocial:varchar
-Doctor
-columnas:  integer, nombre:varchar, email: varchar,telefono:string, obrasocialrecibidas:varchar array,
+Doctor:
+rails generate model Doctor nombre:string email:string telefono:string obrasocialrecibidas:string //
+rails generate controller Doctor //
+Consulta:
+rails generate model Cosulta motivo:string diagnostico:text tratamiento:text
+rails generete controller Consulta 
