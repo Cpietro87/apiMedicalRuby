@@ -5,5 +5,5 @@ Doctor:
 rails generate model Doctor nombre:string email:string telefono:string obrasocialrecibidas:string //
 rails generate controller Doctor //
 Consulta:
-rails generate model Cosulta motivo:string diagnostico:text tratamiento:text
-rails generete controller Consulta 
+rails generate model Consultas motivo:string diagnostico:text tratamiento:text
+rails generate controller Consultas 

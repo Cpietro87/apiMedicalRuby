@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  motivo: MyString
+  diagnostico: MyText
+  tratamiento: MyText
+
+two:
+  motivo: MyString
+  diagnostico: MyText
+  tratamiento: MyText
